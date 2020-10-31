@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 
 
@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="block text-center">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="{{ url('/') }}">
                             <img src="{{ asset('images/azoguelogo2.png') }}" alt="" />
                         </a>
                         <h2 class="text-center">Introduce tus datos</h2>
